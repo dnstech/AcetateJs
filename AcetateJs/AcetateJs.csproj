@@ -20,10 +20,13 @@
   <ItemGroup>
     <Content Include="app.css" />
     <Content Include="index.html" />
+    <Content Include="paper-core.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="acetate.ts" />
     <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="paper.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <None Include="web.Debug.config">
