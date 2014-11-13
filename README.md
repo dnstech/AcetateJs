@@ -10,4 +10,4 @@ An Javascript library for performing annotations of Photo's using basic vector t
 
 License
 -------
-Licensed under MIT Licesnse
+Licensed under MIT License
