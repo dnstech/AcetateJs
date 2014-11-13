@@ -18,7 +18,13 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="acetate.js">
+      <DependentUpon>acetate.ts</DependentUpon>
+    </Content>
     <Content Include="app.css" />
+    <Content Include="app.js">
+      <DependentUpon>app.ts</DependentUpon>
+    </Content>
     <Content Include="index.html" />
     <Content Include="paper-core.js" />
     <Content Include="web.config" />
@@ -29,6 +35,12 @@
     <TypeScriptCompile Include="paper.d.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="acetate.js.map">
+      <DependentUpon>acetate.ts</DependentUpon>
+    </Content>
+    <Content Include="app.js.map">
+      <DependentUpon>app.ts</DependentUpon>
+    </Content>
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
